@@ -23,9 +23,12 @@
 	 h5 { font-size: 18px;}
    p  { font-size: 18px;}
 
-	footer h5 { font-size:8px;}
-  .story{
-    margin-right: 6rem;
+	footer h5 {
+    font-size:10px;
+    margin-left: 10rem;
+  }
+  .future h3{
+
   }
 }
 
@@ -37,9 +40,9 @@
 	 h5 { font-size: 18px;}
    p  {font-size: 18px;}
 
-	 footer h5 { font-size:8px;}
-   .story{
-     margin-right: 6rem;
+	 footer h5 {
+     font-size:10px;
+     margin-left: 10rem;
    }
 }
 
@@ -51,7 +54,9 @@
 	 h5 { font-size: 18px;}
    p {font-size: 18px;}
 
-	 footer h5 { font-size:8px;}
+	 footer h5 { font-size:10px;
+   }
+
 }
 
 .geofont {
@@ -112,6 +117,10 @@ a:focus,
 a:hover {
   outline: none; }
 
+a {
+  color: white;
+}
+
 /* {changes} */
 /*h1{
 font-family: 'geomanist'; }
@@ -167,13 +176,13 @@ section {
     font-size: 1.1rem;
     color: black; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: black; }
+      color: none; }
   #mainNav .navbar-nav {
     letter-spacing: 1px; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: black; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: none;
+        color: black;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: black; }
@@ -281,7 +290,7 @@ footer {
 }
 
 .story{
-  margin-left: -1rem;
+  margin-left: 3rem;
   margin-right: 3rem;
 }
 
@@ -333,7 +342,7 @@ footer {
   }
 
   .comingsoon{
-    margin-top: -7rem;
+    margin-top: -4rem;
   }
 
 
@@ -378,10 +387,9 @@ background-position: center;
   /* height: 165vh; */
 
 }
-
 a:hover{
   text-decoration: none;
-
+  color: white;
 }
 
 .current:hover{
@@ -389,7 +397,7 @@ a:hover{
 }
 
 .future:hover{
-  background-color: #3a3a3a;
+  background-color: #484848;
 }
 
 .message{
@@ -461,7 +469,45 @@ a:hover{
   margin-right: 3rem;
   padding: 2px;
 }
+
+  /* thank you  */
+
+  .picture {
+  	/*
+    text-align: center;
+    padding: 130px;
+    display: block;
+    margin: 0 auto;
+    height: 60vh;*/
+     height: auto;
+      width: auto;
+      max-width: 115px;
+      max-height: 300px;
+      padding: 5px;
+  }
+
+.thank{
+  padding: 97px;
+  margin-bottom: -3rem;
 }
+
+.interest{
+  margin-bottom: 0rem;
 }
+
+.btn{
+  padding: 6px;
+  margin: 2rem;
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  border: 4px solid black;
+  border-radius: 0;
+
 }
+
+.btn:hover{
+  background-color: black;
+  color: white;
+  border: 4px solid black;
 }
