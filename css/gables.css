@@ -15,6 +15,20 @@
      src: url(GeomanistBold.ttf);
   }
 
+
+  @media only screen and (max-width: 479px){
+     .btn{ margin-left: 5rem;
+     margin-right: 5rem;}
+
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 767px){
+
+     .btn{ margin-left: 5rem;
+     margin-right: 5rem;}
+    }
+  
+
   .img-responsive {
     display:block;
     max-width: 100%;
