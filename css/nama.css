@@ -28,7 +28,12 @@
 	footer h5 {
 		font-size:10px;
 		margin-left: 10rem;
+    margin-right: 10rem;
 	  }
+    .logo{
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
 
 }
 
@@ -41,10 +46,15 @@
    p  {font-size: 18px;}
    .btn{ margin-left: 5rem;
    margin-right: 5rem;}
-   
+
 	footer h5 {
     font-size:10px;
     margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .logo{
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 
 }
