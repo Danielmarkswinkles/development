@@ -488,7 +488,12 @@ div:hover>.comingsoon{
   margin-left: 3rem;
   margin-right: 3rem;
   padding: 2px;
+  font-family: 'roboto';
 }
+a:hover{
+  color: white;
+  font-weight: bold;
+
 
 /* thank you  */
 
@@ -539,4 +544,5 @@ border: 4px solid black;
    margin-left: 0 !important;
    margin-right: 0 !important;
 
+}
 }
